@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widbutton=device-widbutton, initial-scale=1.0">
+    <title>Carga TBC</title>
+    <script src="actions.js" type="text/javascript"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/virus_lungs_pneumonia_virus_flu_icon_142213.ico"/>
+</head>
+<body>
+    <div id="content">
+    <h1 id="title">TBC Pulmonar</h1>
+    <div id="anios" class="card-body">
+        <h2>Agregar Años</h2>
+            <button id="btncat1anio" class="btn btn-info"  onclick="updateNumber('cat1anio')">2 a 4</button><input type="text" value= "0" id="cat1anio" disabled>
+            <br/>
+            <button id="btncat2anio" class="btn btn-info" onclick="updateNumber('cat2anio')">5 a 9</button> <input type="text" value= "0"id="cat2anio" disabled>
+            <br/>
+            <button id="btncat3anio" class="btn btn-info" onclick="updateNumber('cat3anio')">10 a 14</button> <input type="text" value= "0"id="cat3anio" disabled>
+            <br/>
+            <button id="btncat4anio" class="btn btn-info" onclick="updateNumber('cat4anio')">15 a 29</button> <input type="text" value= "0"id="cat4anio" disabled>
+            <br/>
+            <button id="btncat5anio" class="btn btn-info" onclick="updateNumber('cat5anio')">20 a 24</button> <input type="text" value= "0"id="cat5anio" disabled>
+            <br/>
+            <button id="btncat6anio" class="btn btn-info" onclick="updateNumber('cat6anio')">25 a 34</button> <input type="text" value= "0"id="cat6anio" disabled>
+            <br/>
+            <button id="btncat7anio" class="btn btn-info" onclick="updateNumber('cat7anio')">35 a 44</button> <input type="text" value= "0"id="cat7anio" disabled>
+            <br/>
+            <button id="btncat8anio" class="btn btn-info" onclick="updateNumber('cat8anio')">45 a 64</button> <input type="text" value= "0"id="cat8anio" disabled>
+            <br/>
+            <button id="btncat9anio" class="btn btn-info" onclick="updateNumber('cat9anio')">65 a 74</button> <input type="text" value= "0"id="cat9anio" disabled>
+            <br/>
+            <button id="btncat10anio" class="btn btn-info" onclick="updateNumber('cat10anio')">  + 75</button> <input type="text" value= "0"id="cat10anio" disabled>
+
+    </div>
+    <div id="meses">
+        <h2>Agregar Meses</h2>
+            <button class="btn btn-primary" onclick="updateNumber('cat1meses')"> - 6m</button> <input type="text" value= "0"id="cat1meses" disabled>
+            <br/>
+            <button class="btn btn-primary" onclick="updateNumber('cat2meses')">6m a 11m</button><input type="text" value= "0"id="cat2meses" disabled>
+            <br/>
+            <button class="btn btn-primary" onclick="updateNumber('cat3meses')">12m a 23m</button><input type="text" value= "0"id="cat3meses" disabled>
+
+    </div>
+    <div id="sinespc">
+        <h2>Agregar Sin Especificar</h2>
+
+            <button class="btn btn-light" onclick="updateNumber('catsinesp')"> Sin Especificar </button> <input type="text" value= "0"id="catsinesp" disabled>
+            <br/>
+
+    </div>
+</div>
+</body>
+</html>
